@@ -1,0 +1,24 @@
+/* Define primary colors */
+:root {
+    --primary-color: #000000; /* Black */
+    --secondary-color: #ffffff; /* White */
+}
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* or 700, 900 based on your needs */
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900; /* Heavy weight for headings */
+    color: var(--primary-color);
+}
+
+p {
+    font-weight: 700; /* Bold for paragraphs */
+}
